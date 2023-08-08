@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d, - - | cut -d, -fl
+sed -n '1~2p' input.txt
